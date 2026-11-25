@@ -2,6 +2,8 @@
 
 **NeuraViz AI Challenge 2026–27 — Stage 2 Idea Submission**
 
+The [public challenge page](https://neuraviz.com/aichallenge2026/) asks entrants to describe the problem and their AI solution. Its FAQ says the NeuraViz team reviews each idea; the page does not publish a detailed scoring rubric or weights.
+
 **One-line summary:** JaundiceCheck proposes an offline smartphone tool to help India's community health workers identify newborns who may need a bilirubin blood test during routine home visits.
 
 ## 1. The Problem
@@ -23,6 +25,8 @@ The app would be a screening aid, not a diagnosis or a replacement for HBNC chec
 **Validation and feasibility plan.** With ethics approval and consent, aim to enroll 2,400 newborns born at 35 weeks' gestation or later: 1,600 for development and 800 for a locked test at separate sites, targeting at least 150 reference-positive infants in that test. Pair images and blood TSB at the same encounter; clinical reviewers blinded to app output would classify whether each infant meets the protocol's predefined TSB referral criterion. Test the referral decision at **target sensitivity ≥95% and specificity ≥75%**, counting unresolved captures and uncertain outputs as referrals. Report 95% confidence intervals, sample counts, and ungradable rates overall and by documented light, medium, and dark skin-tone groups using a standard shade chart; at least six Android models spanning budget and mid-range devices; and daylight, typical indoor, and dim indoor lighting. Report gaps where subgroup counts are too small to draw conclusions.
 
 **Field check.** If the benchmark is met, run a supervised, silent ASHA pilot in one block: collect usability and image-quality data without letting the app change care. Test offline operation, time per screen (target: under two minutes), and whether mothers and other caregivers understand the proposed referral message.
+
+**Consent and oversight.** Before taking photos, the ASHA would explain the tool and ask permission in the caregiver's preferred language. Declining would not affect care. Home-visit photos would be processed on the phone and not saved by default. Keeping any photos for research would require separate consent and an approved plan for who can access them and when they are deleted. A designated pediatric lead would review false negatives and image failures by subgroup and keep the tool out of care decisions if there are unresolved safety issues or too little subgroup evidence to judge performance.
 
 ## 3. Expected Impact
 
